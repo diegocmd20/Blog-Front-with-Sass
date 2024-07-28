@@ -35,17 +35,28 @@ body {
   margin-right: 0.5rem;
 }
 
+.input__submit {
+  background-color: #CCCCCC;
+  border: 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  margin-left: 4rem;
+  font-weight: 700;
+}
+
 .card {
   display: flex;
   flex-direction: column;
+  max-width: 18.75em;
   margin: 1rem 0rem;
 }
 .card__img {
   max-width: 18.75em;
-  max-height: 12.5em;
+  max-height: 9.375em;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 0.5em;
 }
 .card__h5 {
   font-weight: 400;
@@ -54,6 +65,7 @@ body {
 .card__h3 {
   font-weight: 700;
   font-size: 20px;
+  padding: 0.5em 0em;
 }
 .card__footer {
   display: inline-flex;
@@ -183,6 +195,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem 4rem;
+  margin: 1rem 0rem;
   justify-content: center;
 }
 .article .article-div {
@@ -212,4 +225,27 @@ body {
 .section__cards {
   display: flex;
   justify-content: space-around;
+}
+
+.subscription {
+  padding: 0rem 4rem;
+}
+.subscription .subs-section {
+  background-color: #729e2e;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+}
+.subscription .subs-section__title {
+  color: white;
+}
+.subscription .subs-section__input {
+  display: flex;
+  margin: 0.5rem 0rem;
+}
+.subscription .subs-section__input .input__email {
+  width: 50%;
+  border-radius: 0.5rem;
+  border: 0;
+  font-size: 16px;
+  font-weight: 300;
 }/*# sourceMappingURL=main.css.map */
