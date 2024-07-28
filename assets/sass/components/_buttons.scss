@@ -1,0 +1,30 @@
+.register-form__submit {
+    background-color: $green;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 0;
+
+    .submit__link {
+        font-weight: $weight-h3;
+        color: white;
+        font-size: $size-14;
+        text-decoration: none;
+    }
+}
+
+.register-form__google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid $gray;
+    font-weight: $weight-h3;
+    color: black;
+
+    .google__logo {
+        height: $google-logo;
+        width: auto;
+        margin-right: 0.5rem;
+    }
+}

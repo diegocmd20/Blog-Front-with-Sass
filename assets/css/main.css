@@ -15,6 +15,35 @@ body {
   padding: 0.5rem 4rem;
 }
 
+.register-form__submit {
+  background-color: #729e2e;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+.register-form__submit .submit__link {
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.register-form__google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #CCCCCC;
+  font-weight: 700;
+  color: black;
+}
+.register-form__google .google__logo {
+  height: 20px;
+  width: auto;
+  margin-right: 0.5rem;
+}
+
 .blogbar {
   display: flex;
   align-items: center;
@@ -48,6 +77,9 @@ body {
   margin: 0.5rem 0rem;
   border-radius: 0.5rem;
   border: 1px solid #CCCCCC;
+}
+.register-form__submit, .register-form__google, .register-form__footer {
+  margin: 0.5rem 0rem;
 }
 
 .blogbar-footer {

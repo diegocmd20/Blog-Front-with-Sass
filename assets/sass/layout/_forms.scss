@@ -17,4 +17,7 @@
         border-radius: 0.5rem;
         border: 1px solid $gray;
     }
+    &__submit,&__google, &__footer{
+        margin: 0.5rem 0rem;
+    }
 }
