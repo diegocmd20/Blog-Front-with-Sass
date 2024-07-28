@@ -1,1 +1,54 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*, body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.blogbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding: 1rem 1rem;
+}
+.blogbar__img {
+  height: 40px;
+  width: auto;
+  border-radius: 0.5rem;
+}
+.blogbar__title {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.blogbar-footer {
+  display: flex;
+  height: 6.25rem;
+  padding: 1rem 1rem;
+}
+
+.footer-left {
+  display: inline-flex;
+  width: 50%;
+  align-items: center;
+}
+.footer-left__img {
+  height: 40px;
+  width: 40px;
+  border-radius: 0.5rem;
+}
+.footer-left__title {
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.footer-right {
+  display: inline-flex;
+  width: 50%;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer-right__title {
+  font-weight: 400;
+  font-size: 20px;
+}/*# sourceMappingURL=main.css.map */

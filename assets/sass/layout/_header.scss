@@ -1,0 +1,17 @@
+.blogbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 1rem 1rem;
+
+    &__img {
+        height: $desafio-logo;
+        width: auto;
+        border-radius: 0.5rem;
+    }
+
+    &__title {
+        font-weight: $weight-h3;
+        margin-left: 0.5rem;
+    }
+}
