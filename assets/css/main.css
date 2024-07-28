@@ -6,15 +6,6 @@ body {
   padding: 0;
 }
 
-.register {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 0.5rem 4rem;
-}
-
 .register-form__submit {
   background-color: #729e2e;
   padding: 0.5rem 2.5rem;
@@ -112,4 +103,67 @@ body {
 .footer-right__title {
   font-weight: 400;
   font-size: 20px;
+}
+
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 0.5rem 4rem;
+}
+
+.main {
+  padding: 1rem 4rem;
+}
+.main__author {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+.main__author .author__logo {
+  display: flex;
+  align-items: center;
+}
+.main__author .author__logo .logo__img {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+.main__author .author__logo .logo__text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+.main__author .author__date {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 4rem;
+  justify-content: center;
+}
+.article .article-div {
+  display: flex;
+  flex-direction: column;
+  background-color: #CCCCCC;
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.article .article-div__img {
+  width: 37.5rem;
+  height: 18.75rem;
+  border-radius: 0.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 2rem 0rem;
 }/*# sourceMappingURL=main.css.map */

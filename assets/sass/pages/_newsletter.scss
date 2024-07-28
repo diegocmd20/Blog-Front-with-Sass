@@ -1,0 +1,59 @@
+.main {
+    padding: 1rem 4rem;
+
+    &__author {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0rem;
+
+        .author__logo {
+            display: flex;
+            align-items: center;
+
+            .logo__img {
+                height: $desafio-logo;
+                width: auto;
+                border-radius: 50%;
+            }
+
+            .logo__text {
+                font-size: $size-16;
+                font-weight: $weight-main;
+                margin-left: 0.5rem;
+            }
+        }
+
+        .author__date {
+            display: flex;
+            align-items: center;
+            margin-left: 3rem;
+            font-size: $size-16;
+            font-weight: $weight-h5;
+        }
+    }
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    justify-content: center;
+
+    .article-div {
+        display: flex;
+        flex-direction: column;
+        background-color: $gray;
+        border-radius: 0.5rem;
+        padding: 2rem 1rem;
+        justify-content: center;
+        align-items: center;
+
+        &__img {
+            width: 37.5rem;
+            height: 18.75rem;
+            border-radius: 0.5rem;
+            object-fit: cover;
+            margin: 2rem 0rem;
+        }
+    }
+}
