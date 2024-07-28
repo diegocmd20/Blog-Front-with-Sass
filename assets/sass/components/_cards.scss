@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    &__img{
+        max-width: 18.75em;
+        max-height: 12.5em;
+        width: 100%;
+        object-fit:cover;
+    }
+    &__h5{
+        font-weight: $weight-h5;
+        font-size: $size-16;
+    }
+    &__h3{
+        font-weight: $weight-h3;
+        font-size: $size-20;
+    }
+    &__footer{
+        display: inline-flex;
+        align-items: center;
+        .footer__img{
+            height: $desafio-logo;
+            width: auto;
+            border-radius: 50%;
+        }
+        .footer__h5{
+            font-weight: $weight-h5;
+            font-size: $size-16;
+            margin-left: 0.5em;
+        }
+    }
+
+
+}

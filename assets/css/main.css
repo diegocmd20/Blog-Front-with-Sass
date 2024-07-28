@@ -35,6 +35,41 @@ body {
   margin-right: 0.5rem;
 }
 
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+.card__img {
+  max-width: 18.75em;
+  max-height: 12.5em;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__h5 {
+  font-weight: 400;
+  font-size: 16px;
+}
+.card__h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+.card__footer {
+  display: inline-flex;
+  align-items: center;
+}
+.card__footer .footer__img {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+.card__footer .footer__h5 {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 0.5em;
+}
+
 .blogbar {
   display: flex;
   align-items: center;
@@ -160,10 +195,21 @@ body {
   align-items: center;
 }
 .article .article-div__img {
-  width: 37.5rem;
-  height: 18.75rem;
+  max-width: 37.5em;
+  max-height: 18.75em;
+  width: 100%;
   border-radius: 0.5rem;
   -o-object-fit: cover;
      object-fit: cover;
   margin: 2rem 0rem;
+}
+
+.section {
+  padding: 0rem 4rem;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+.section__cards {
+  display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=main.css.map */
